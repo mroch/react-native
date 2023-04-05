@@ -1,5 +1,132 @@
 # Changelog
 
+## v0.72.0-rc.1
+
+### Breaking
+
+
+
+#### Android specific
+
+
+
+#### iOS specific
+
+
+
+### Added
+
+
+
+#### Android specific
+
+
+
+#### iOS specific
+
+- Added examples of direct manipulation ([a44d8a0f8a](https://github.com/facebook/react-native/commit/a44d8a0f8a9b6533b50ac6318fa5993bd41d444b) by [@cipolleschi](https://github.com/cipolleschi))
+
+### Changed
+
+- Default condition set for experimental Package Exports is now `['require', 'react-native']` ([308838c0ff](https://github.com/facebook/react-native/commit/308838c0ff3cdc4c7817afe349eddfab80c0c76c) by [@huntie](https://github.com/huntie))
+
+#### Android specific
+
+
+
+#### iOS specific
+
+
+
+### Deprecated
+
+
+
+#### Android specific
+
+
+
+#### iOS specific
+
+
+
+### Removed
+
+
+
+#### Android specific
+
+
+
+#### iOS specific
+
+
+
+### Fixed
+
+- Use the right path to load RNTester bundle ([a881269503](https://github.com/facebook/react-native/commit/a881269503e486eaefc5a61ead89500f00ec7959) by [@cipolleschi](https://github.com/cipolleschi))
+- Bail on realizing region around last focused cell if we don't know where it is ([776fe7a292](https://github.com/facebook/react-native/commit/776fe7a29271d1b4678a0913315487724d201449) by [@NickGerleman](https://github.com/NickGerleman))
+
+#### Android specific
+
+- Fix a crash new app template when `createRootView` is invoked with null bundle ([990971186f](https://github.com/facebook/react-native/commit/990971186fccf1e14c8715cb35ab82ad8e43f99c) by [@cortinico](https://github.com/cortinico))
+- Fix the setup to allow the build-from-source on host projects ([fec5658a32](https://github.com/facebook/react-native/commit/fec5658a321a3c0d5da34efaa59fe8d05575f674) by [@cortinico](https://github.com/cortinico))
+- Mimimize EditText Spans 9/9: Remove `addSpansForMeasurement()` ([92b8981499](https://github.com/facebook/react-native/commit/92b898149956a301a44f99019f5c7500335c5553) by [@NickGerleman](https://github.com/NickGerleman))
+- Minimize EditText Spans 8/N: CustomStyleSpan ([b384bb613b](https://github.com/facebook/react-native/commit/b384bb613bf533aebf3271ba335c61946fcd3303) by [@NickGerleman](https://github.com/NickGerleman))
+- Minimize EditText Spans 6/N: letterSpacing ([5791cf1f7b](https://github.com/facebook/react-native/commit/5791cf1f7b43aed1d98cad7bcc272d97ab659111) by [@NickGerleman](https://github.com/NickGerleman))
+- Minimize Spans 5/N: Strikethrough and Underline ([0869ea29db](https://github.com/facebook/react-native/commit/0869ea29db6a4ca20b9043d592a2233ae1a0e7a2) by [@NickGerleman](https://github.com/NickGerleman))
+- Minimize Spans 4/N: ReactForegroundColorSpan ([8c9c8ba5ad](https://github.com/facebook/react-native/commit/8c9c8ba5adb59f7f891a5307a0bce7200dd3ac7d) by [@NickGerleman](https://github.com/NickGerleman))
+- Minimize Spans 3/N: ReactBackgroundColorSpan ([cc0ba57ea4](https://github.com/facebook/react-native/commit/cc0ba57ea42d876155b2fd7d9ee78604ff8aa57a) by [@NickGerleman](https://github.com/NickGerleman))
+- Minimize Spans 1/N: Fix precedence ([1743dd7ab4](https://github.com/facebook/react-native/commit/1743dd7ab40998c4d3491e3b2c56c531daf5dc47) by [@NickGerleman](https://github.com/NickGerleman))
+
+#### iOS specific
+
+
+
+### Security
+
+
+
+#### Android specific
+
+
+
+#### iOS specific
+
+
+
+### Unknown
+
+- Bump CLI to 11.1.1 ([c92bb3c526](https://github.com/facebook/react-native/commit/c92bb3c52699a88e94b4a5657a8540f5812f2e60) by [@kelset](https://github.com/kelset))
+- Fix(metro-config): fix and realign the situation for metro config for 0.72 ([e795b534aa](https://github.com/facebook/react-native/commit/e795b534aa269efe781b2349bd77281f1f008cda) by [@kelset](https://github.com/kelset))
+- Merge pull request #36573 from hoxyq/hoxyq/cherry-pick-ci-scripts-changes-to-0.72-stable ([68cd44be07](https://github.com/facebook/react-native/commit/68cd44be07bf27dd4aa3cacd92c97b1e73d1e596) by [@hoxyq](https://github.com/hoxyq))
+- Fix e2e local testing script post metro-config ([392a843494](https://github.com/facebook/react-native/commit/392a8434941f08b095d3b4d12e785f2b0a7d2aaf) by [@kelset](https://github.com/kelset))
+- Need to be in the rn-tester folder the whole time when testing rn-tester ([8beed6ad08](https://github.com/facebook/react-native/commit/8beed6ad08c0ed788d9f1f85ec9f187ee888e9ed) by [@kelset](https://github.com/kelset))
+- Bump CLI to 11.0.1 ([d0699dc428](https://github.com/facebook/react-native/commit/d0699dc42839db2b62d7324ad66dfe764849a75f) by [@kelset](https://github.com/kelset))
+- Bump js-polyfills and virtualized-lists ([73837a72f6](https://github.com/facebook/react-native/commit/73837a72f6836c64eb46ff9adfede4c1df3be387) by [@kelset](https://github.com/kelset))
+- Bumped packages versions ([8a493af0b9](https://github.com/facebook/react-native/commit/8a493af0b96576637d89d0a04be981763bd49693) by [@kelset](https://github.com/kelset))
+- Port changes from main into Stable to make the CI green ([9ffe82edd3](https://github.com/facebook/react-native/commit/9ffe82edd3f0a891b2421b34327d2859d3f5abdf) by [@cipolleschi](https://github.com/cipolleschi))
+- Restore object with prerelease as string to unblock 0.72 ([6e04b2a717](https://github.com/facebook/react-native/commit/6e04b2a717f37cf32b2b19f738fbe3827fde2975) by [@cipolleschi](https://github.com/cipolleschi))
+- [0.72-stable] Fix localhost references in yarn.lock ([fecfd04d89](https://github.com/facebook/react-native/commit/fecfd04d8908f1a7f94daa6779fdf735fff144a4) by [@robhogan](https://github.com/robhogan))
+- Downgrade CLI to `alpha.0` to get Metro working again in CI ([17a96158aa](https://github.com/facebook/react-native/commit/17a96158aa91c5b649a3f57e15d843e49c30afbb) by [@cipolleschi](https://github.com/cipolleschi))
+- Fix: format template location following prettier rules ([73f37b14d6](https://github.com/facebook/react-native/commit/73f37b14d6b8622059e3ebf520a3eb830a7be841) by [@hoxyq](https://github.com/hoxyq))
+- Fix platform Typings ([aff2e93576](https://github.com/facebook/react-native/commit/aff2e93576c03f7452917a2f508167d4e106ff62) by [@cipolleschi](https://github.com/cipolleschi))
+- Bump hermes in RNTester podfile ([8a5ddb92f1](https://github.com/facebook/react-native/commit/8a5ddb92f15bd33bb0ab711e8a7285e7f76acbcc) by [@kelset](https://github.com/kelset))
+- Fix script ([f9b3835f1e](https://github.com/facebook/react-native/commit/f9b3835f1e20d3333ba7cc1b96d160154dfc1324) by [@kelset](https://github.com/kelset))
+
+#### Android Unknown
+
+
+
+#### iOS Unknown
+
+
+
+#### Failed to parse
+
+
+
+
 ## v0.72.0-rc.0
 
 ### Breaking
